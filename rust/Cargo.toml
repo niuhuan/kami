@@ -1,0 +1,45 @@
+[package]
+name = "rust_lib_kami"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "staticlib"]
+
+[dependencies]
+flutter_rust_bridge = "=2.0.0-dev.25"
+lazy_static = "1"
+once_cell = "1"
+tokio = "1"
+anyhow = "1.0"
+async_once = "0.2"
+base64 = "0.21"
+bytes = "1.5"
+chrono = { version = "0.4", features = ["serde"] }
+futures-util = "0.3"
+hex = "0.4"
+image = { version = "0.24", features = ["jpeg", "gif", "webp", "bmp", "png", "jpeg_rayon"] }
+itertools = "0.12"
+libc = "0.2"
+md5 = "0.7"
+num-iter = "0.1"
+prost = "0.12"
+prost-types = "0.12"
+regex = "1.10"
+rsa = "0.9"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+serde_path_to_error = "0.1"
+reqwest = { version = "0.11", features = ["tokio-rustls", "rustls", "rustls-tls", "socks", "tokio-socks"], default-features = false }
+sea-orm = { version = "0.12", features = ["sqlx-sqlite", "macros", "runtime-tokio-rustls"], default-features = false }
+linked-hash-map = { version = "0.5", features = ["serde", "serde_impl"] }
+url = "2.5"
+tracing-subscriber = "0.3"
+tracing = "0.1"
+rand = "0.8"
+async_zip = { version = "0.0.16", features = ["full", "tokio-util", "tokio", "tokio-fs", "async-compression"] }
+async-trait = "0.1.77"
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full"] }

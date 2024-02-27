@@ -1,0 +1,46 @@
+PODS:
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+  - permission_handler_apple (9.1.1):
+    - Flutter
+  - rust_lib_kami (0.0.1):
+    - Flutter
+  - uni_links (0.0.1):
+    - Flutter
+  - url_launcher_ios (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - rust_lib_kami (from `.symlinks/plugins/rust_lib_kami/ios`)
+  - uni_links (from `.symlinks/plugins/uni_links/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  rust_lib_kami:
+    :path: ".symlinks/plugins/rust_lib_kami/ios"
+  uni_links:
+    :path: ".symlinks/plugins/uni_links/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  integration_test: 13825b8a9334a850581300559b8839134b124670
+  permission_handler_apple: e76247795d700c14ea09e3a2d8855d41ee80a2e6
+  rust_lib_kami: 5bed444d8a86afdef4e084f43f36b4ad3c4a9020
+  uni_links: d97da20c7701486ba192624d99bffaaffcfc298a
+  url_launcher_ios: 6116280ddcfe98ab8820085d8d76ae7449447586
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.12.1
